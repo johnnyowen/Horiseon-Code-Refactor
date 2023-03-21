@@ -52,7 +52,7 @@ p {
 }
 
 /*displaying and styling main photo*/
-.main-photo {
+article {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -74,7 +74,7 @@ p {
 }
 
 /*Floats box to the right of screen*/
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -82,7 +82,7 @@ p {
 
 
 /*styles informational boxes*/
-.content-style {
+.style {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -92,18 +92,18 @@ p {
 }
 
 /*styles images in informational boxes*/
-.content-style img {
+.style img {
     max-height: 200px;
 }
 
 /*styles headers in informational boxes*/
-.content-style h2 {
+.style h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /*styles background of box on the right*/
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -115,19 +115,19 @@ p {
 }
 
 /*styles boxes in box on right*/
-.benefit- {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /*styles header in box on right*/
-.benefit- h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /*styles images in box on right*/
-.benefit- img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
